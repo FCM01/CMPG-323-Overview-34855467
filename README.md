@@ -60,6 +60,7 @@ it will allow for  testing and automating changes to a single branch instead of 
 <h1> These files will be .gitignored in alll repos</h1>
 <p>. The .gitignore file commands instruct git which files (or patterns) to ignore. It's typically used to prevent committing temporary files from your working directory, including compilation products.</p>
 
+# File extentions
 *.com
 *.class
 *.dll
@@ -96,8 +97,6 @@ TestResults/
 ############
 # Packages #
 ############
-# it’s better to unpack these files and commit the raw source
-# git has its own built in compression methods
 *.7z
 *.dmg
 *.gz
