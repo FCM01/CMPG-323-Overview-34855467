@@ -44,12 +44,15 @@ Project 5 -> Project-5 repo
 endpoints called over HTTP, invoking application code to update a database.These non-functional requirements
 are deemed as supportive requirements to ensure that the functional requirements are
 implemented appropriately and according to good software practices. </p>
-# Diagrams 
+
+# Integration Diagram
+<img src = "/diagram.jpg"></img>
 
 
 # Braching strategy
 I have chosen to use the Github Flow 
 <img src = "/github-flow-branching-model.jpeg"></img>
+<br>
 Github Flow focuses on Agile principles and so it is a fast and streamlined branching strategy with short production cycles and frequent releases. 
 it will allow for  testing and automating changes to a single branch instead of a development branch, rapid and continuous deployment is possible which will be very useful for the production of this whole . According to my research this branching stategy is suited small teams and web applications and it is ideal when you need to maintain a single production version.
 
