@@ -59,9 +59,7 @@ it will allow for  testing and automating changes to a single branch instead of 
 # Purposose of.gitignore
 <h1> These files will be .gitignored in alll repos</h1>
 <p>. The .gitignore file commands instruct git which files (or patterns) to ignore. It's typically used to prevent committing temporary files from your working directory, including compilation products.</p>
-<p>###################
-# compiled source #
-###################
+
 *.com
 *.class
 *.dll
@@ -133,7 +131,7 @@ _[Ss]cripts
 *.dll
 *.nupkg
 *.ncrunchsolution
-*.dot[Cc]over</p>
+*.dot[Cc]over
 <p><link rel="stylesheet" href="https://gist.github.com/indyfromoz/4109296"></p>
 <>
 
