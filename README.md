@@ -57,9 +57,88 @@ Github Flow focuses on Agile principles and so it is a fast and streamlined bran
 it will allow for  testing and automating changes to a single branch instead of a development branch, rapid and continuous deployment is possible which will be very useful for the production of this whole . According to my research this branching stategy is suited small teams and web applications and it is ideal when you need to maintain a single production version.
 
 # Purposose of.gitignore
-Project-2 repo:
-Project-3 repo:
-Project-4 repo:
-Project-5 repo:
+<h1> These files will be .gitignored in alll repos</h1>
+<p>. The .gitignore file commands instruct git which files (or patterns) to ignore. It's typically used to prevent committing temporary files from your working directory, including compilation products.</p>
+<p>###################
+# compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
+# Include dlls if they’re in the NuGet packages directory
+!/packages/*/lib/*.dll
+!/packages/*/lib/*/*.dll
+# Include dlls if they're in the CommonReferences directory
+!*CommonReferences/*.dll
+####################
+# VS Upgrade stuff #
+####################
+UpgradeLog.XML
+_UpgradeReport_Files/
+###############
+# Directories #
+###############
+bin/
+obj/
+TestResults/
+###################
+# Web publish log #
+###################
+*.Publish.xml
+#############
+# Resharper #
+#############
+/_ReSharper.*
+*.ReSharper.*
+############
+# Packages #
+############
+# it’s better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+######################
+# Logs and databases #
+######################
+*.log
+*.sqlite
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+[Bb]in
+[Oo]bj
+[Tt]est[Rr]esults
+*.suo
+*.user
+*.[Cc]ache
+*[Rr]esharper*
+packages
+NuGet.exe
+_[Ss]cripts
+*.exe
+*.dll
+*.nupkg
+*.ncrunchsolution
+*.dot[Cc]over</p>
+<p><link rel="stylesheet" href="https://gist.github.com/indyfromoz/4109296"></p>
+<>
 
 # Storage of credentials and sensitve information
+<p>In thes projects the storage of information is very important and reuires for the encryption of user credetials so is to prvent user credetials be user by non user or atackes .The database aand API will require high level of encryption this from my researh we will need to utilze the concepts of  authentication,autherization.SO of the indutry trends is using JWT authentication which utilizes token to confirm user sessions on applications.Some libraies such as CryptoStream can be used to encrypt data the general flow of enrtyption should be as seen below</p>
+<img src = "/secure data.png" ></img>
+<p>Research on technique was done on the website below</p>
+<link  href ="https://tudip.com/blog-post/how-to-securely-transfer-web-api-data-in-asp-net-core/">
