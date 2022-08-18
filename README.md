@@ -119,14 +119,14 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
-<p><link rel="stylesheet" href="https://gist.github.com/indyfromoz/4109296"></p>
-<>
+<p> Reaserch source found at  https://gist.github.com/indyfromoz/4109296
+</p>
 
 # Storage of credentials and sensitve information
 <p>In these projects, information storage is critical, and encryption of user credentials is required to prevent user credentials from being used by non-users or attackers. From my research, the database and API will require a high level of encryption. From my research, we will need to utilize the concepts of authentication,autherization.One of the industry trends is using JWT authentication, which utilizes tokens to confirm user sessions on applications. Some libraries, such as CryptoStream, can be used to encrypt data. The general flow of encryption should be as seen below.</p>
 <img src = "/secure data.png" ></img>
-<p>Research on technique was done on the website below</p>
-<link  href ="https://tudip.com/blog-post/how-to-securely-transfer-web-api-data-in-asp-net-core/">
+<p>Research on technique can be found at https://tudip.com/blog-post/how-to-securely-transfer-web-api-data-in-asp-net-core/</p>
+href ="">
 <br>
 <br>
 <h1>The burndown chat is located in the .xlsx file int this repository</h1>
