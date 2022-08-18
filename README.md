@@ -3,7 +3,7 @@ Project 1
 This is the initial understang of all the semester projects and the scope they require. 
 # Project respositories
 Project 2 -> Project-2 repo
-    <h1 style  =  "color:green;">API DEVELOPEMENT</h1>
+    <h1 style  =  "color:green">API DEVELOPEMENT</h1>
     <h2>Repository name : API</h2>
     <p>The architectural style of REST will be used to complete this section of the semester project . An API will serve to communicate between the server and frontend, which would be done in project 2 . The API will be used as a data source to manage interaction with the data source.</p>
     <h2>General requirements</h2>
